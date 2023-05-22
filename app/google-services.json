@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "11244757649",
+    "firebase_url": "https://admobearning-17079-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "admobearning-17079",
+    "storage_bucket": "admobearning-17079.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11244757649:android:3d3de51c4ea30bb4855530",
+        "android_client_info": {
+          "package_name": "com.meass.go_bandarbon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11244757649-f3th861jl1fiirmi7r5r8c8p9jgso1j9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNxhslTwN1gwZislKkAmuvDpjXHpoD7N8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11244757649-f3th861jl1fiirmi7r5r8c8p9jgso1j9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11244757649:android:bdacc038add463ae855530",
+        "android_client_info": {
+          "package_name": "com.meass.go_bandarbonadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11244757649-4mk52un2nb3aq0m1u9h7l91oq9ujpg7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meass.go_bandarbonadmin",
+            "certificate_hash": "40bc5e4893286d1671e429b3db853a17ddc019ad"
+          }
+        },
+        {
+          "client_id": "11244757649-hv95p1gsek8nfqr5gdrun88kgnrgtf63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meass.go_bandarbonadmin",
+            "certificate_hash": "6e135254a13be7aa19a5baba338eb5e027c7f6b8"
+          }
+        },
+        {
+          "client_id": "11244757649-f3th861jl1fiirmi7r5r8c8p9jgso1j9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNxhslTwN1gwZislKkAmuvDpjXHpoD7N8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11244757649-f3th861jl1fiirmi7r5r8c8p9jgso1j9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11244757649:android:af364c5ba7c4f4b7855530",
+        "android_client_info": {
+          "package_name": "com.meass.go_bandarbondriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11244757649-ede7p65euocbi5pv35v7virge4ke1ir9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meass.go_bandarbondriver",
+            "certificate_hash": "28d5ce58e9c3b43ceb091ea688a4e2ab23bd6310"
+          }
+        },
+        {
+          "client_id": "11244757649-l8hb5apdv8dt293mu5pem584jbtoqof9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meass.go_bandarbondriver",
+            "certificate_hash": "40bc5e4893286d1671e429b3db853a17ddc019ad"
+          }
+        },
+        {
+          "client_id": "11244757649-f3th861jl1fiirmi7r5r8c8p9jgso1j9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNxhslTwN1gwZislKkAmuvDpjXHpoD7N8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11244757649-f3th861jl1fiirmi7r5r8c8p9jgso1j9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

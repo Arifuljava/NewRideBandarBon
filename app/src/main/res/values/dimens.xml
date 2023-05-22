@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <!--    <dimen name="design_bottom_navigation_text_size" tools:override="true">6dp</dimen>
+       <dimen name="design_bottom_navigation_active_text_size" tools:override="true">12dp</dimen>
+      <dimen name="design_bottom_navigation_height" tools:override="true">56dp</dimen>-->
+
+
+    //
+
+    <!-- Default screen margins, per the Android Design guidelines. --><![CDATA[
+   >
+
+    ]]><!--    <dimen name="design_bottom_navigation_text_size" tools:override="true">6dp</dimen>
+       <dimen name="design_bottom_navigation_active_text_size" tools:override="true">12dp</dimen>
+      <dimen name="design_bottom_navigation_height" tools:override="true">56dp</dimen>-->
+    <dimen name="space_20dp">20dp</dimen>
+
+    //
+
+    //
+    //
+    <string-array name="agenda">
+        <item>Select Payment Method</item>
+        <item>Bkash</item>
+        <item>Nagad</item>
+        <item>Rocket</item>
+    </string-array>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="comment_pop_up_width">300dp</dimen>
+
+
+    <dimen name="view_width_small">5dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+<dimen name="space_15dp">15dp</dimen>
+
+    //
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="space_5dp">5dp</dimen>
+    <dimen name="space_10dp">10dp</dimen>
+    <dimen name="space_50dp">50dp</dimen>
+
+
+    //new
+
+</resources>
