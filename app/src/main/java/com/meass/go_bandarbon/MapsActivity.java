@@ -264,7 +264,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             indi=getIntent().getStringExtra("indi");
         }
         ddddd=findViewById(R.id.ddddd);
-        ddddd.setText(""+indi);
+        ddddd.setText(""+locallity);
         //Toast.makeText(MapsActivity.this, ""+locallity, Toast.LENGTH_SHORT).show();
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -283,7 +283,26 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         car=findViewById(R.id.car);
         cng=findViewById(R.id.cng);
         makerules=findViewById(R.id.makerules);
+     //   Toast.makeText(MapsActivity.this, locallity+"", Toast.LENGTH_SHORT).show();
+        //
+       /*
+        firebaseFirestore.collection("LocationList").document("car")
+                .collection("dhava").
+                get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if (task.isSuccessful()) {
+                            int myncount=0;
+                            for (DocumentSnapshot document : task.getResult()) {
+                                myncount++;
+                            }
+                            Toast.makeText(MapsActivity.this, ""+myncount, Toast.LENGTH_SHORT).show();
+                        }
 
+                    }
+                });
+        */
         //
         Places.initialize(MapsActivity.this,"AIzaSyDhFGUWlyd0KsjPQ59ATr-yL0bQKujHmeg");
         toistance.setFocusable(false);
@@ -432,6 +451,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                 .setAnimationSpeed(2)
                                 .setDimAmount(0.5f)
                                 .show();
+                     //  Toast.makeText(MapsActivity.this, ddddd.getText().toString()+""+locallity.toString().toString().toLowerCase().toString(), Toast.LENGTH_SHORT).show();
                         firebaseFirestore.collection("LocationList")
                                 .document(indi).collection(locallity.toString().toString().toLowerCase().toString()).
                                 get()
@@ -969,8 +989,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                 .setAnimationSpeed(2)
                                 .setDimAmount(0.5f)
                                 .show();
+
+
+                    //    Toast.makeText(MapsActivity.this, ddddd.getText().toString()+""+locallity.toString().toString().toLowerCase().toString(), Toast.LENGTH_SHORT).show();
                         firebaseFirestore.collection("LocationList")
-                                .document(ddddd.getText().toString()).collection(locallity.toString().toString().toLowerCase().toString()).
+                                .document(indi).collection(locallity.toString().toString().toLowerCase().toString()).
                                 get()
                                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                                     @Override
@@ -1876,7 +1899,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 c_latitude = String.valueOf(lat);
                 c_longitude = String.valueOf(longi);
                 String address="";
-                Toast.makeText(this, c_longitude+"\n"+c_latitude, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, c_longitude+"\n"+c_latitude, Toast.LENGTH_SHORT).show();
                 Geocoder geocoder = new Geocoder(MapsActivity.this, Locale.getDefault());
                 Date currentTime = Calendar.getInstance().getTime();
                 try {
@@ -1884,11 +1907,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     Address obj = addresses.get(0);
 
                     String add = obj.getAddressLine(0);
-                    locallity=obj.getLocality();
+                    locallity=obj.getAdminArea();
                     ///
 
 
-                    Toast.makeText(this, ""+getAddress(lat,longi), Toast.LENGTH_SHORT).show();
+                  //  Toast.makeText(this, ""+getAddress(lat,longi), Toast.LENGTH_SHORT).show();
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -1907,7 +1930,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             if (addresses.size() > 0) {
                 Address address = addresses.get(0);
                locallity= address.getAdminArea();
-                Toast.makeText(this, ""+locallity, Toast.LENGTH_SHORT).show();
+              ///  Toast.makeText(this, ""+locallity, Toast.LENGTH_SHORT).show();
             }
         } catch (IOException e) {
             //Log.e("tag", e.getMessage());
